@@ -1,0 +1,4 @@
+total 8
+drwxr-xr-x  3 leshymacbook  staff   96 May 12 13:51 .
+drwxr-xr-x  3 leshymacbook  staff   96 May 12 13:44 ..
+-rw-r--r--  1 leshymacbook  staff  200 May 12 13:49 README.txt

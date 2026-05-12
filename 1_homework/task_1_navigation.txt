@@ -1,0 +1,52 @@
+Script started on Tue May 12 13:39:52 2026
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hppwe d[?1l>[?2004l
+]2;pwd]1;pwd/Users/leshymacbook
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hccd /t etc[?1l>[?2004l
+]2;cd /etc]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/etc]2;leshymacbook@MacBook-Air]1;/etc]7;file://MacBook-Air.local/etc\[0m[27m[24m[J[01;32m➜  [36m/etc[00m [K[?1h=[?2004hlls [?1l>[?2004l
+]2;ls -G]1;lsafpovertcp.cfg                        ntp.conf
+[35maliases[39;49m[0m                               ntp_opendirectory.conf
+aliases.db                            [1m[36mopenldap[39;49m[0m
+[1m[36mapache2[39;49m[0m                               [1m[36mpam.d[39;49m[0m
+[1m[36masl[39;49m[0m                                   passwd
+asl.conf                              paths
+auto_home                             [1m[36mpaths.d[39;49m[0m
+auto_master                           [1m[36mpf.anchors[39;49m[0m
+autofs.conf                           pf.conf
+bashrc                                pf.os
+bashrc_Apple_Terminal                 [1m[36mpostfix[39;49m[0m
+com.apple.mis.rtadvd.conf             [1m[36mppp[39;49m[0m
+com.apple.screensharing.agent.launchd profile
+csh.cshrc                             protocols
+csh.login                             [1m[36mracoon[39;49m[0m
+csh.logout                            rc.common
+[1m[36mcups[39;49m[0m                                  rc.netboot
+find.codes                            [35mresolv.conf[39;49m[0m
+ftpusers                              rmtab
+gettytab                              rpc
+group                                 rtadvd.conf
+hosts                                 [1m[36msecurity[39;49m[0m
+hosts.equiv                           services
+irbrc                                 shells
+kern_loader.conf                      [1m[36msnmp[39;49m[0m
+krb5.keytab                           [1m[36mssh[39;49m[0m
+[35mlocaltime[39;49m[0m                             [1m[36mssl[39;49m[0m
+locate.rc                             sudo_lecture
+mail.rc                               sudoers
+man.conf                              [1m[36msudoers.d[39;49m[0m
+manpaths                              syslog.conf
+[1m[36mmanpaths.d[39;49m[0m                            ttys
+master.passwd                         [1m[36muucp[39;49m[0m
+networks                              [1m[36mwfs[39;49m[0m
+newsyslog.conf                        xtab
+[1m[36mnewsyslog.d[39;49m[0m                           zprofile
+nfs.conf                              zshrc
+notify.conf                           zshrc_Apple_Terminal
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/etc]2;leshymacbook@MacBook-Air]1;/etc]7;file://MacBook-Air.local/etc\[0m[27m[24m[J[01;32m➜  [36m/etc[00m [K[?1h=[?2004h/ ccd /cd  var/log[?1l>[?2004l
+]2;cd /var/log]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/var/log]2;leshymacbook@MacBook-Air]1;/var/log]7;file://MacBook-Air.local/var/log\[0m[27m[24m[J[01;32m➜  [36mlog[00m [K[?1h=[?2004hllsl  llal ls /user r  r/bin » | wc -c l[?1l>[?2004l
+]2;ls -G /usr/bin | wc -l]1;ls     917
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/var/log]2;leshymacbook@MacBook-Air]1;/var/log]7;file://MacBook-Air.local/var/log\[0m[27m[24m[J[01;32m➜  [36mlog[00m [K[?1h=[?2004hccd[?1l>[?2004l
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004heexti  it[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+
+Script done on Tue May 12 13:41:53 2026

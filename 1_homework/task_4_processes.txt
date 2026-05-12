@@ -1,0 +1,24 @@
+Script started on Tue May 12 14:13:50 2026
+Restored session: Tue May 12 13:41:53 MSK 2026
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hhhih  ppython3      p  ssleep 300 &[?1l>[?2004l
+]2;sleep 300 &]1;sleep[1] 52716
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hppgrep sleep[?1l>[?2004l
+]2;pgrep sleep]1;pgrep52716
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hpps aux »  | grep sleep[?1l>[?2004l
+]2;ps aux | grep --color=auto  sleep]1;psleshymacbook     52820   0.0  0.0 435300080   1296 s001  S+    2:14PM   0:00.00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox --exclude-dir=.venv --exclude-dir=venv [01;31m[Ksleep[m[K
+leshymacbook     52716   0.0  0.0 435299712   1088 s001  SN    2:14PM   0:00.01 [01;31m[Ksleep[m[K 300
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hssle s  w sslee  s  ppkill 52716[?1l>[?2004l
+]2;pkill 52716]1;pkill[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;31m➜  [36m~[00m [K[?1h=[?2004hppgrep sll eep[?1l>[?2004l
+]2;pgrep sleep]1;pgrep52716
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hppkill 52716[?1l>[?2004l
+]2;pkill 52716]1;pkill[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;31m➜  [36m~[00m [K[?1h=[?2004h
+bck-i-search: _[K[A[10D[4mp[24mkill 52716[1Bp_[A[11D[4mp[4ms[24m aux | grep sleep[1B[9Ds_[A[12D[24mp[24ms[1B[K[A[6C[?1l>[?2004l[1B]2;ps aux | grep --color=auto  sleep]1;psleshymacbook     53092   0.0  0.0 435299536   1296 s001  S+    2:15PM   0:00.01 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn --exclude-dir=.idea --exclude-dir=.tox --exclude-dir=.venv --exclude-dir=venv [01;31m[Ksleep[m[K
+leshymacbook     52716   0.0  0.0 435299712    496 s001  SN    2:14PM   0:00.01 [01;31m[Ksleep[m[K 300
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hppkill   p  kkill 52716[?1l>[?2004l
+]2;kill 52716]1;kill[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook[1]  + 52716 terminated  sleep 300
+]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hppgrepp  sleep[?1l>[?2004l
+]2;pgrep sleep]1;pgrep[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;31m➜  [36m~[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+
+Script done on Tue May 12 14:15:45 2026
