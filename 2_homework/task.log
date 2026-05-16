@@ -1,0 +1,199 @@
+Script started on 2026-05-16 13:58:22-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="155" LINES="36"]
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo gor[K[Kroupadd developers
+[?2004l[sudo] password for leshy: 
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo useradd -m -s /bin/a[Kbash/ frodo
+[?2004luseradd: Warning: missing or non-executable shell '/bin/bash/'
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo useradd -m -s /bin/bash/ frodo[1P frodo
+[?2004luseradd: user 'frodo' already exists
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ /ec[Ktc[K[K[K[Kcata /[K[K[K /ec[Ktc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+dhcpcd:x:100:65534:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+systemd-timesync:x:991:991:systemd Time Synchronization:/:/usr/sbin/nologin
+messagebus:x:990:990:System Message Bus:/nonexistent:/usr/sbin/nologin
+leshy:x:1000:1000:pavel leshkanov,,,:/home/leshy:/bin/bash
+sshd:x:989:65534:sshd user:/run/sshd:/usr/sbin/nologin
+Debian-exim:x:101:103::/var/spool/exim4:/usr/sbin/nologin
+navidrome:x:999:987::/var/lib/navidrome:/usr/sbin/nologin
+dnsmasq:x:997:65534:dnsmasq:/var/lib/misc:/usr/sbin/nologin
+netdata:x:986:986:Netdata Agent user:/var/lib/netdata:/usr/sbin/nologin
+caddy:x:996:985:Caddy web server:/var/lib/caddy:/usr/sbin/nologin
+postgres:x:102:105:PostgreSQL administrator:/var/lib/postgresql:/bin/bash
+tcpdump:x:103:106::/nonexistent:/usr/sbin/nologin
+wilson:x:1001:1003::/home/wilson:/bin/zsh
+frodo:x:1002:1005::/home/frodo:/bin/bash/
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo passwd frodo
+[?2004lNew password: 
+Retype new password: 
+Sorry, passwords do not match.
+passwd: Authentication token manipulation error
+passwd: password unchanged
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo passwd frodo
+[?2004lNew password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo usermod developers frodo
+[?2004lUsage: usermod [options] LOGIN
+
+Options:
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -b, --badname                 allow bad names (DEPRECATED)
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory for the user account
+  -e, --expiredate EXPIRE_DATE  set account expiration date to EXPIRE_DATE
+  -f, --inactive INACTIVE       set password inactive after expiration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary group
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -h, --help                    display this help message and exit
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home directory to the
+                                new location (use only with -d)
+  -o, --non-unique              allow using duplicate (non-unique) UID
+  -p, --password PASSWORD       use encrypted password for the new password
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -r, --remove                  remove the user from only the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -R, --root CHROOT_DIR         directory to chroot into
+  -s, --shell SHELL             new login shell for the user account
+  -u, --uid UID                 new UID for the user account
+  -U, --unlock                  unlock the user account
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping for the user account
+      --selinux-range SERANGE   new SELinux MLS range for the user account
+
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo usermod developers frodo[1@-[1@a[1@G[1@ 
+[?2004l[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ id fo[Krodo
+[?2004luid=1002(frodo) gid=1005(frodo) groups=1005(frodo),1004(developers)
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo op[K[K/opt/team-project.conft/opt/team-project.confo/opt/team-project.confu/opt/team-project.confc/opt/team-project.confh/opt/team-project.conf /opt/team-project.conf
+[?2004l[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ ls [K[Ks -l /opt/team-project.conf
+[?2004l-rw-r--r-- 1 root root 0 May 16 14:05 /opt/team-project.conf
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo choe[Kwn /opt/team-project.conf[C /opt/team-project.conf- /opt/team-project.conf[1P /opt/team-project.conff /opt/team-project.confr /opt/team-project.confo /opt/team-project.confd /opt/team-project.confo /opt/team-project.conf: /opt/team-project.confd /opt/team-project.confe /opt/team-project.confv /opt/team-project.confe /opt/team-project.confl /opt/team-project.confo /opt/team-project.confp /opt/team-project.confe /opt/team-project.confr /opt/team-project.confs /opt/team-project.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ ls -l /[K[K[K[K[K[K[Ksudo chown frodo:developers /opt/team-project.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l-rw-r--r-- 1 frodo developers 0 May 16 14:05 /opt/team-project.conf
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo [K[K[K[K[Ksu[K[Kch[K[Ksudo chw[Kow[K[K[K[Kchmod 640
+[?2004lchmod: missing operand after ‘640’
+Try 'chmod --help' for more information.
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo chmod 640 .[K/opt/team-project.conf [K
+[?2004l[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ ls -l /opt/team-project.conf 
+[?2004l-rw-r----- 1 frodo developers 0 May 16 14:05 /opt/team-project.conf
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sud[K[Ku[Ku - frodo
+[?2004lPassword: 
+su: failed to execute /bin/bash/: Not a directory
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ usermod -s bash[K[K[K[K/bin/ash[K[K[Kbash frodo
+[?2004lusermod: Permission denied.
+usermod: cannot lock /etc/passwd; try again later.
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ usermod -s /bin/bash frodo´[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[C[1@u[1@d[1@o[1@ 
+[?2004lusermod: user 'frodo´' does not exist
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo usermod -s /bin/bash frodo´[K
+[?2004l[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ su[K[Ksu[Ku - [Ku[K f[Kfrodo
+[?2004lPassword: 
+[?2004h]0;frodo@debserv: ~[01;32mfrodo@debserv[00m:[01;34m~[00m$ whoe[Kaim[K[Kmi
+[?2004lfrodo
+[?2004h]0;frodo@debserv: ~[01;32mfrodo@debserv[00m:[01;34m~[00m$ psw[K[Kws[Kd
+[?2004l/home/frodo
+[?2004h]0;frodo@debserv: ~[01;32mfrodo@debserv[00m:[01;34m~[00m$ id
+[?2004luid=1002(frodo) gid=1005(frodo) groups=1005(frodo),1004(developers)
+[?2004h]0;frodo@debserv: ~[01;32mfrodo@debserv[00m:[01;34m~[00m$ cat /opt/team-project.conf 
+[?2004l[?2004h]0;frodo@debserv: ~[01;32mfrodo@debserv[00m:[01;34m~[00m$ nano /opt/team-project.conf [K
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;60H(B[0;1m[37m[41m[ Directory '/opt' is not writable ][39;49m(B[m[H(B[0;7m  GNU nano 8.4                                                       /opt/team-project.conf                                                                [1;154H(B[m[35d(B[0;7m^G(B[m Help[35;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[35;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[35;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[36;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[36;120H(B[0;7mM-6(B[m Copy[36;137H(B[0;7m^B(B[m Where Was[2d[?12l[?25h[?25l[1;93H(B[0;7m*[154G(B[m[?12l[?25h[2dd[?25l[?12l[?25hf[?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[34d(B[0;7mSave modified buffer?                                                                                                                                      [35;1H Y(B[m Yes[K[36d(B[0;7m N(B[m No  [36;17H(B[0;7m^C(B[m Cancel[K[34;23H[?12l[?25h[?25l[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;frodo@debserv: ~[01;32mfrodo@debserv[00m:[01;34m~[00m$ exit
+[?2004llogout
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ sudo userdel -r frodo
+[?2004luserdel: frodo mail spool (/var/mail/frodo) not found
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ ls /.[Khome
+[?2004l[0m[01;34mleshy[0m  [01;34mwilson[0m
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ ls [K[K[Ksudo group d[K[Kdel dele[K[Kvelopers [K
+[?2004l[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ сфе [K[K[K[Kcata [K[K etc[K[K[K/etc [K/gropu[K[Kup | ger[K[Krep developers
+[?2004l[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ ca[K[Kcat /etc/group | grep developers[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:leshy
+floppy:x:25:leshy
+tape:x:26:
+sudo:x:27:leshy
+audio:x:29:leshy
+dip:x:30:leshy
+www-data:x:33:caddy
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:leshy
+sasl:x:45:
+plugdev:x:46:leshy
+staff:x:50:
+games:x:60:
+users:x:100:leshy
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+input:x:996:
+sgx:x:995:
+clock:x:994:
+kvm:x:993:
+render:x:992:
+netdev:x:101:leshy
+systemd-timesync:x:991:
+messagebus:x:990:
+_ssh:x:102:
+leshy:x:1000:navidrome
+sambashare:x:989:
+winbindd_priv:x:988:
+storage:x:1001:leshy
+Debian-exim:x:103:
+navidrome:x:987:
+media:x:1002:leshy,navidrome
+netdata:x:986:
+caddy:x:985:
+ssl-cert:x:104:postgres
+postgres:x:105:
+tcpdump:x:106:
+wilson:x:1003:
+[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ grp[Kep fror[K[K[K[K[K[Kp frodo /etc/passwd
+[?2004l[?2004h]0;leshy@debserv: ~[01;32mleshy@debserv[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-05-16 14:23:36-04:00 [COMMAND_EXIT_CODE="1"]
