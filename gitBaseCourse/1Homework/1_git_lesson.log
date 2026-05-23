@@ -1,0 +1,321 @@
+Script started on Sat May 23 19:34:39 2026
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hbbre w install git[?1l>[?2004l
+]2;brew install git]1;brew[34m==>[0m [1mAuto-updating Homebrew...[0m
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+[34m==>[0m [1mDownloading https://ghcr.io/v2/homebrew/core/portable-ruby/blobs/sha256:d5dbe0bbfd7e00136344e7872fc26ad1db935cf7c6421c5888e42bab6cc2f6b3[0m
+#=#=#                                                                           ##O#- #                                                                         ##O=#  #                                                                        #=#=-#  #                                                                       -#O#- #   #                                                                                                                                                 0.1%                                                                            0.8%##                                                                          3.6%#########                                                                  12.4%##################                                                         25.5%#################################                                          46.6%###########################################                                58.9%######################################################                     74.1%###############################################################            86.5%######################################################################### 100.0%
+[34m==>[0m [1mPouring portable-ruby-4.0.5.arm64_big_sur.bottle.tar.gz[0m
+[34m==>[0m [1mAuto-updated Homebrew![0m
+Updated 2 taps (homebrew/core and homebrew/cask).
+[34m==>[0m [1mNew Formulae[0m
+arf: Modern R console with syntax highlighting and fuzzy search
+backplane-cli: CLI for interacting with the OpenShift Backplane API
+cargo-insta: Snapshot testing CLI for Rust
+chunkah: OCI building tool for content-based layers
+codeburn: See where your AI coding tokens go - by task, tool, model, and project
+committed: Nitpicking commit history since beabf39
+crit: Your feedback loop with the agent: review plans and code locally
+cutadapt: Removes adapter sequences from sequencing reads
+dexter-lsp: Elixir LSP optimized for large codebases
+erlang@28: Programming language for highly scalable real-time systems
+fallow: Codebase intelligence for TypeScript and JavaScript
+far2l-tty: Unix TTY port of FAR Manager v2 (with NetRocks support)
+freesasa: Solvent Accessible Surface Area calculations
+gascity: Orchestration-builder SDK for multi-agent coding workflows
+gmp-ecm: Elliptic Curve Method for integer factorization
+go-hass-agent: Native Home Assistant agent for desktop/laptop devices
+hermes-agent: Self-improving AI agent that creates skills from experience
+hexapoda: Colorful modal hex editor
+iqtree3: Phylogenetics by maximum likelihood
+lavinmq: Message broker implementing the AMQP 0-9-1 and MQTT protocols
+leaf-md: Terminal Markdown previewer with a GUI-like experience
+lisette: Language inspired by Rust that compiles to Go
+m4ri: Library for fast arithmetic with dense matrices over GF(2)
+mado: Fast Markdown linter written in Rust
+marmot: Open-source data catalog exposing metadata to AI agents
+mercury-cli: CLI interface for Mercury banking
+miasma: Trap AI web scrapers in an endless poison pit
+nettle@3: Low-level cryptographic library
+opendoor: CLI for web reconnaissance, directory discovery, and exposure assessment
+openjdk@25: Development kit for the Java programming language
+osdctl: CLI tool for managed OpenShift clusters
+panache: Language server, formatter, and linter for Markdown, Quarto, and R Markdown
+phpantom-lsp: Fast PHP language server written in Rust
+plutosvg: Tiny SVG rendering library in C
+quickjs-ng: QuickJS, the Next Generation: a mighty JavaScript engine
+rustnet: Cross-platform network monitoring terminal UI with deep packet inspection
+satellite-tracker: Terminal-based real-time satellite tracking and orbit prediction application
+skm: Simple and powerful SSH keys manager
+smlnj: Compiler and programming system for Standard ML
+sol2: C++ <-> Lua API wrapper with advanced features and top notch performance
+tinyice: Modern, all-in-one Icecast-compatible audio/video streaming server
+vcfanno: Annotate a VCF with other VCFs/BEDs/tabixed files
+vtzero: Minimalist vector tile decoder and encoder in C++
+zapp: Flash ZSA keyboards from your terminal
+zerolang: Programming language for agents with explicit effects and predictable memory
+[34m==>[0m [1mNew Casks[0m
+agentsview: Browse, search and analyse your past AI coding sessions
+amore: App distribution platform with Sparkle, code signing, and notarization
+antigravity-cli: Terminal interface for Antigravity agents
+antigravity-ide: AI Coding Agent IDE
+chiri: CalDAV-compatible task management app
+duo-desktop: Endpoint health checks for Duo-protected applications
+eez-studio: Visual tool for GUI development and T&M automation
+executor: Tool discovery and execution layer for AI agents
+factory: Native AI agent interface to build, manage, and ship software by Factory
+general-software-fresh: Short-term memory for screenshots, downloads, clipboard, and desktop files
+github-copilot-app: Native client for GitHub Copilot
+input0: Voice input tool with AI transcription
+keyscreen: Show key presses on screen
+mole-app: Deep clean, analyze, and optimize app
+notion-cli: Command-line interface for Notion
+open-webui: Desktop application for Open WebUI
+openchamber: Desktop and web interface for OpenCode AI agent
+openwork: Unofficial desktop GUI for OpenCode
+overtone-analyzer: Real-time voice spectrum analyzer and audio editor
+pgen: PostgreSQL client
+presentify: Annotate screens, highlight cursors, and spotlight or zoom key areas
+revpdf-editor: PDF editor for annotation and editing
+runtimeviewer: Inspect Objective-C and Swift runtime interfaces
+shichizip: 7-Zip derivative GUI
+sshfs-mac: Network filesystem client to connect to SSH servers
+transcribex: Local AI transcription app
+tuna: Application launcher
+vocevista-video: Voice spectrum analyzer with resonance and vowel analysis
+vocevista-video-pro: High-resolution voice spectrum and vibrato analyzer
+
+You have [1m78[0m outdated formulae and [1m3[0m outdated casks installed.
+
+git 2.50.1 is already installed but outdated (so it will be upgraded).
+Inspect the formula dependency plan before installing with `brew install --ask`.
+Enable ask mode by setting `HOMEBREW_ASK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+[32m==>[0m [1mFetching downloads for: [32mgit[39m[0m
+[?25l[34m⠋[0m Bottle Manifest git (2.54.0)[K[0G[34m⠋[0m Bottle Manifest git (2.54.0)[K[0G[34m⠙[0m Bottle Manifest git (2.54.0)[K[0G[34m⠙[0m Bottle Manifest git (2.54.0)[K[0G[34m⠚[0m Bottle Manifest git (2.54.0)[K[0G[34m⠚[0m Bottle Manifest git (2.54.0)[K[0G[34m⠞[0m Bottle Manifest git (2.54.0)[K[0G[34m⠞[0m Bottle Manifest git (2.54.0)[K[0G[34m⠖[0m Bottle Manifest git (2.54.0)[K[0G[34m⠖[0m Bottle Manifest git (2.54.0)[K[0G[34m⠦[0m Bottle Manifest git (2.54.0)[K[0G[32m✔︎[0m Bottle Manifest git (2.54.0)                       Downloaded   21.3KB/ 21.3KB
+[K[?25h[?25l[34m⠴[0m Bottle Manifest pcre2 (10.47_1)
+[K[34m⠴[0m Bottle pcre2 (10.47_1)
+[K[34m⠴[0m Bottle Manifest libunistring (1.4.2)
+[K[34m⠴[0m Bottle libunistring (1.4.2)
+[K[34m⠴[0m Bottle git (2.54.0)[K[4F[34m⠴[0m Bottle Manifest pcre2 (10.47_1)
+[K[34m⠴[0m Bottle pcre2 (10.47_1)
+[K[34m⠴[0m Bottle Manifest libunistring (1.4.2)
+[K[34m⠴[0m Bottle libunistring (1.4.2)
+[K[34m⠴[0m Bottle git (2.54.0)[K[4F[34m⠲[0m Bottle Manifest pcre2 (10.47_1)
+[K[34m⠲[0m Bottle pcre2 (10.47_1)
+[K[34m⠲[0m Bottle Manifest libunistring (1.4.2)
+[K[34m⠲[0m Bottle libunistring (1.4.2)
+[K[34m⠲[0m Bottle git (2.54.0)[K[4F[34m⠲[0m Bottle Manifest pcre2 (10.47_1)
+[K[34m⠲[0m Bottle pcre2 (10.47_1)
+[K[34m⠲[0m Bottle Manifest libunistring (1.4.2)
+[K[34m⠲[0m Bottle libunistring (1.4.2)
+[K[34m⠲[0m Bottle git (2.54.0)[K[4F[34m⠳[0m Bottle Manifest pcre2 (10.47_1)
+[K[34m⠳[0m Bottle pcre2 (10.47_1)
+[K[34m⠳[0m Bottle Manifest libunistring (1.4.2)
+[K[34m⠳[0m Bottle libunistring (1.4.2)
+[K[34m⠳[0m Bottle git (2.54.0)[K[4F[34m⠳[0m Bottle Manifest pcre2 (10.47_1)
+[K[34m⠳[0m Bottle pcre2 (10.47_1)
+[K[34m⠳[0m Bottle Manifest libunistring (1.4.2)
+[K[34m⠳[0m Bottle libunistring (1.4.2)
+[K[34m⠳[0m Bottle git (2.54.0)[K[4F[34m⠓[0m Bottle Manifest pcre2 (10.47_1)
+[K[34m⠓[0m Bottle pcre2 (10.47_1)
+[K[34m⠓[0m Bottle Manifest libunistring (1.4.2)
+[K[34m⠓[0m Bottle libunistring (1.4.2)
+[K[34m⠓[0m Bottle git (2.54.0)[K[4F[34m⠓[0m Bottle Manifest pcre2 (10.47_1)
+[K[34m⠓[0m Bottle pcre2 (10.47_1)
+[K[34m⠓[0m Bottle Manifest libunistring (1.4.2)
+[K[34m⠓[0m Bottle libunistring (1.4.2)
+[K[34m⠓[0m Bottle git (2.54.0)[K[4F[34m⠋[0m Bottle Manifest pcre2 (10.47_1)
+[K[34m⠋[0m Bottle pcre2 (10.47_1)
+[K[34m⠋[0m Bottle Manifest libunistring (1.4.2)
+[K[34m⠋[0m Bottle libunistring (1.4.2)
+[K[34m⠋[0m Bottle git (2.54.0)[K[4F[34m⠋[0m Bottle Manifest pcre2 (10.47_1)
+[K[34m⠋[0m Bottle pcre2 (10.47_1)
+[K[34m⠋[0m Bottle Manifest libunistring (1.4.2)
+[K[34m⠋[0m Bottle libunistring (1.4.2)
+[K[34m⠋[0m Bottle git (2.54.0)[K[4F[32m✔︎[0m Bottle Manifest pcre2 (10.47_1)                    Downloaded   11.7KB/ 11.7KB
+[K[34m⠙[0m Bottle pcre2 (10.47_1)
+[K[34m⠙[0m Bottle Manifest libunistring (1.4.2)
+[K[34m⠙[0m Bottle libunistring (1.4.2)
+[K[34m⠙[0m Bottle git (2.54.0)[K[3F[32m✔︎[0m Bottle Manifest libunistring (1.4.2)               Downloaded    7.3KB/  7.3KB
+[K[34m⠙[0m Bottle pcre2 (10.47_1)
+[K[34m⠙[0m Bottle libunistring (1.4.2)
+[K[34m⠙[0m Bottle git (2.54.0)[K[2F[34m⠚[0m Bottle pcre2 (10.47_1)
+[K[34m⠚[0m Bottle libunistring (1.4.2)
+[K[34m⠚[0m Bottle git (2.54.0)[K[2F[34m⠚[0m Bottle pcre2 (10.47_1)
+[K[34m⠚[0m Bottle libunistring (1.4.2)
+[K[34m⠚[0m Bottle git (2.54.0)[K[2F[34m⠞[0m Bottle pcre2 (10.47_1)
+[K[34m⠞[0m Bottle libunistring (1.4.2)
+[K[34m⠞[0m Bottle git (2.54.0)[K[2F[34m⠞[0m Bottle pcre2 (10.47_1)
+[K[34m⠞[0m Bottle libunistring (1.4.2)
+[K[34m⠞[0m Bottle git (2.54.0)[K[2F[34m⠖[0m Bottle pcre2 (10.47_1)
+[K[34m⠖[0m Bottle libunistring (1.4.2)
+[K[34m⠖[0m Bottle git (2.54.0)[K[2F[34m⠖[0m Bottle pcre2 (10.47_1)
+[K[34m⠖[0m Bottle libunistring (1.4.2)
+[K[34m⠖[0m Bottle git (2.54.0)[K[2F[34m⠦[0m Bottle pcre2 (10.47_1)
+[K[34m⠦[0m Bottle libunistring (1.4.2)                        Downloading   8.2KB/  1.9MB
+[K[34m⠦[0m Bottle git (2.54.0)[K[2F[34m⠦[0m Bottle pcre2 (10.47_1)                             Downloading   8.2KB/  2.4MB
+[K[34m⠦[0m Bottle libunistring (1.4.2)                        Downloading   8.2KB/  1.9MB
+[K[34m⠦[0m Bottle git (2.54.0)[K[2F[34m⠴[0m Bottle pcre2 (10.47_1)                             Downloading  36.9KB/  2.4MB
+[K[34m⠴[0m Bottle libunistring (1.4.2)                        Downloading  36.9KB/  1.9MB
+[K[34m⠴[0m Bottle git (2.54.0)[K[2F[34m⠴[0m Bottle pcre2 (10.47_1)                             Downloading  77.8KB/  2.4MB
+[K[34m⠴[0m Bottle libunistring (1.4.2)          #             Downloading  77.8KB/  1.9MB
+[K[34m⠴[0m Bottle git (2.54.0)                                Downloading  12.3KB/ 22.8MB[K[2F[34m⠲[0m Bottle pcre2 (10.47_1)               #             Downloading 192.5KB/  2.4MB
+[K[34m⠲[0m Bottle libunistring (1.4.2)          #             Downloading 192.5KB/  1.9MB
+[K[34m⠲[0m Bottle git (2.54.0)                                Downloading  45.1KB/ 22.8MB[K[2F[34m⠲[0m Bottle pcre2 (10.47_1)               ##            Downloading 323.6KB/  2.4MB
+[K[34m⠲[0m Bottle libunistring (1.4.2)          #             Downloading 192.5KB/  1.9MB
+[K[34m⠲[0m Bottle git (2.54.0)                                Downloading 110.6KB/ 22.8MB[K[2F[34m⠳[0m Bottle pcre2 (10.47_1)               ####          Downloading 667.6KB/  2.4MB
+[K[34m⠳[0m Bottle libunistring (1.4.2)          ###           Downloading 405.5KB/  1.9MB
+[K[34m⠳[0m Bottle git (2.54.0)                                Downloading 127.0KB/ 22.8MB[K[2F[34m⠳[0m Bottle pcre2 (10.47_1)               ######        Downloading   1.1MB/  2.4MB
+[K[34m⠳[0m Bottle libunistring (1.4.2)          ######        Downloading 847.9KB/  1.9MB
+[K[34m⠳[0m Bottle git (2.54.0)                                Downloading 258.0KB/ 22.8MB[K[2F[34m⠓[0m Bottle pcre2 (10.47_1)               ######        Downloading   1.1MB/  2.4MB
+[K[34m⠓[0m Bottle libunistring (1.4.2)          ######        Downloading 880.6KB/  1.9MB
+[K[34m⠓[0m Bottle git (2.54.0)                                Downloading 536.6KB/ 22.8MB[K[2F[34m⠓[0m Bottle pcre2 (10.47_1)               ##########    Downloading   1.8MB/  2.4MB
+[K[34m⠓[0m Bottle libunistring (1.4.2)          ######        Downloading 880.6KB/  1.9MB
+[K[34m⠓[0m Bottle git (2.54.0)                  #             Downloading   1.1MB/ 22.8MB[K[2F[34m⠋[0m Bottle pcre2 (10.47_1)               ###########   Downloading   2.1MB/  2.4MB
+[K[34m⠋[0m Bottle libunistring (1.4.2)          #######       Downloading   1.1MB/  1.9MB
+[K[34m⠋[0m Bottle git (2.54.0)                  #             Downloading   1.7MB/ 22.8MB[K[2F[34m⠋[0m Bottle pcre2 (10.47_1)               ############  Downloading   2.2MB/  2.4MB
+[K[34m⠋[0m Bottle libunistring (1.4.2)          ##########    Downloading   1.4MB/  1.9MB
+[K[34m⠋[0m Bottle git (2.54.0)                  #             Downloading   1.7MB/ 22.8MB[K[2F[34m⠙[0m Bottle pcre2 (10.47_1)               ############  Downloading   2.2MB/  2.4MB
+[K[34m⠙[0m Bottle libunistring (1.4.2)          ###########   Downloading   1.6MB/  1.9MB
+[K[34m⠙[0m Bottle git (2.54.0)                  #             Downloading   1.8MB/ 22.8MB[K[2F[34m⠙[0m Bottle pcre2 (10.47_1)               ############  Downloading   2.2MB/  2.4MB
+[K[34m⠙[0m Bottle libunistring (1.4.2)                        Extracting    1.9MB/  1.9MB
+[K[34m⠙[0m Bottle git (2.54.0)                  ##            Downloading   3.4MB/ 22.8MB[K[2F[34m⠚[0m Bottle pcre2 (10.47_1)               ############# Downloading   2.4MB/  2.4MB
+[K[34m⠚[0m Bottle libunistring (1.4.2)                        Extracting    1.9MB/  1.9MB
+[K[34m⠚[0m Bottle git (2.54.0)                  ###           Downloading   4.5MB/ 22.8MB[K[2F[32m✔︎[0m Bottle libunistring (1.4.2)                        Downloaded    1.9MB/  1.9MB
+[K[34m⠚[0m Bottle pcre2 (10.47_1)               ############# Downloading   2.4MB/  2.4MB
+[K[34m⠚[0m Bottle git (2.54.0)                  ###           Downloading   5.2MB/ 22.8MB[K[1F[34m⠞[0m Bottle pcre2 (10.47_1)                             Extracting    2.4MB/  2.4MB
+[K[34m⠞[0m Bottle git (2.54.0)                  ###           Downloading   5.6MB/ 22.8MB[K[1F[32m✔︎[0m Bottle pcre2 (10.47_1)                             Downloaded    2.4MB/  2.4MB
+[K[34m⠞[0m Bottle git (2.54.0)                  ####          Downloading   7.0MB/ 22.8MB[K[0G[34m⠖[0m Bottle git (2.54.0)                  ####          Downloading   7.8MB/ 22.8MB[K[0G[34m⠖[0m Bottle git (2.54.0)                  #####         Downloading   8.3MB/ 22.8MB[K[0G[34m⠦[0m Bottle git (2.54.0)                  #####         Downloading   8.8MB/ 22.8MB[K[0G[34m⠦[0m Bottle git (2.54.0)                  ######        Downloading   9.7MB/ 22.8MB[K[0G[34m⠴[0m Bottle git (2.54.0)                  ######        Downloading  10.6MB/ 22.8MB[K[0G[34m⠴[0m Bottle git (2.54.0)                  ######        Downloading  11.0MB/ 22.8MB[K[0G[34m⠲[0m Bottle git (2.54.0)                  #######       Downloading  11.6MB/ 22.8MB[K[0G[34m⠲[0m Bottle git (2.54.0)                  #######       Downloading  12.5MB/ 22.8MB[K[0G[34m⠳[0m Bottle git (2.54.0)                  ########      Downloading  13.2MB/ 22.8MB[K[0G[34m⠳[0m Bottle git (2.54.0)                  ########      Downloading  13.8MB/ 22.8MB[K[0G[34m⠓[0m Bottle git (2.54.0)                  ########      Downloading  14.4MB/ 22.8MB[K[0G[34m⠓[0m Bottle git (2.54.0)                  #########     Downloading  15.4MB/ 22.8MB[K[0G[34m⠋[0m Bottle git (2.54.0)                  #########     Downloading  16.1MB/ 22.8MB[K[0G[34m⠋[0m Bottle git (2.54.0)                  #########     Downloading  16.6MB/ 22.8MB[K[0G[34m⠙[0m Bottle git (2.54.0)                  ##########    Downloading  17.3MB/ 22.8MB[K[0G[34m⠙[0m Bottle git (2.54.0)                  ##########    Downloading  18.2MB/ 22.8MB[K[0G[34m⠚[0m Bottle git (2.54.0)                  ###########   Downloading  18.8MB/ 22.8MB[K[0G[34m⠚[0m Bottle git (2.54.0)                  ###########   Downloading  19.4MB/ 22.8MB[K[0G[34m⠞[0m Bottle git (2.54.0)                  ###########   Downloading  20.2MB/ 22.8MB[K[0G[34m⠞[0m Bottle git (2.54.0)                  ############  Downloading  21.1MB/ 22.8MB[K[0G[34m⠖[0m Bottle git (2.54.0)                  ############  Downloading  21.7MB/ 22.8MB[K[0G[34m⠖[0m Bottle git (2.54.0)                  ############# Downloading  22.2MB/ 22.8MB[K[0G[34m⠦[0m Bottle git (2.54.0)                                Downloaded   22.8MB/ 22.8MB[K[0G[34m⠦[0m Bottle git (2.54.0)                                Extracting   22.8MB/ 22.8MB[K[0G[34m⠴[0m Bottle git (2.54.0)                                Extracting   22.8MB/ 22.8MB[K[0G[34m⠴[0m Bottle git (2.54.0)                                Extracting   22.8MB/ 22.8MB[K[0G[34m⠲[0m Bottle git (2.54.0)                                Extracting   22.8MB/ 22.8MB[K[0G[34m⠲[0m Bottle git (2.54.0)                                Extracting   22.8MB/ 22.8MB[K[0G[34m⠳[0m Bottle git (2.54.0)                                Extracting   22.8MB/ 22.8MB[K[0G[34m⠳[0m Bottle git (2.54.0)                                Extracting   22.8MB/ 22.8MB[K[0G[34m⠓[0m Bottle git (2.54.0)                                Extracting   22.8MB/ 22.8MB[K[0G[32m✔︎[0m Bottle git (2.54.0)                                Downloaded   22.8MB/ 22.8MB
+[K[?25h[32m==>[0m [1mUpgrading [32mgit[39m[0m
+  2.50.1 -> 2.54.0 
+[32m==>[0m [1mInstalling dependencies for git: [32mpcre2[39m and [32mlibunistring[39m[0m
+[32m==>[0m [1mInstalling git dependency: [32mpcre2[39m[0m
+[34m==>[0m [1mPouring pcre2--10.47_1.arm64_tahoe.bottle.tar.gz[0m
+🍺  /opt/homebrew/Cellar/pcre2/10.47_1: 244 files, 7.3MB
+[32m==>[0m [1mInstalling git dependency: [32mlibunistring[39m[0m
+[34m==>[0m [1mPouring libunistring--1.4.2.arm64_tahoe.bottle.tar.gz[0m
+🍺  /opt/homebrew/Cellar/libunistring/1.4.2: 59 files, 5.8MB
+[32m==>[0m [1mInstalling [32mgit[39m[0m
+[34m==>[0m [1mPouring git--2.54.0.arm64_tahoe.bottle.tar.gz[0m
+[34m==>[0m [1mCaveats[0m
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+[34m==>[0m [1mSummary[0m
+🍺  /opt/homebrew/Cellar/git/2.54.0: 1,719 files, 62.7MB
+[34m==>[0m [1mRunning `brew cleanup git`...[0m
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/git/2.50.1... (1,740 files, 58.6MB)
+[32m==>[0m [1m`brew cleanup` has not been run in the last 30 days, running now...[0m
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2025-12-02... (2KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/ca-certificates--2025-12-02... (131.8KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/dav1d_bottle_manifest--1.5.3... (7.6KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/dav1d--1.5.3... (364.6KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.0.1... (102.2KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/ffmpeg--8.0.1... (21.5MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/frei0r_bottle_manifest--2.5.1... (7.4KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/frei0r--2.5.1... (690.8KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/glib_bottle_manifest--2.86.3... (20.2KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/glib--2.86.3... (9.2MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/gnutls_bottle_manifest--3.8.11... (19.5KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/gnutls--3.8.11... (3.3MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/harfbuzz_bottle_manifest--12.3.0... (29.9KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/harfbuzz--12.3.0... (3.3MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/icu4c@78_bottle_manifest--78.1... (9.7KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/icu4c@78--78.1... (31.8MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/jpeg-turbo_bottle_manifest--3.1.3... (8.3KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/jpeg-turbo--3.1.3... (1MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/leptonica_bottle_manifest--1.87.0... (17.3KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/leptonica--1.87.0... (2.7MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/libarchive_bottle_manifest--3.8.5... (12KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/libarchive--3.8.5... (1.6MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/libbluray_bottle_manifest--1.4.0_1... (15.3KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/libbluray--1.4.0_1... (369.6KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/libdeflate_bottle_manifest--1.25... (7.8KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/libdeflate--1.25... (113.3KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/liblinear_bottle_manifest--2.50... (7.6KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/liblinear--2.50... (102.6KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/libpng_bottle_manifest--1.6.53... (8.5KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/libpng--1.6.53... (459KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/librist_bottle_manifest--0.2.11_1... (22.2KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/librist--0.2.11_1... (213.8KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/libssh2_bottle_manifest--1.11.1... (11.8KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/libssh2--1.11.1... (422.9KB)
+Removing: /opt/homebrew/Cellar/libunistring/1.4.1... (59 files, 5.8MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/lua_bottle_manifest--5.4.8... (10.8KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/lua--5.4.8... (269.9KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/mbedtls@3_bottle_manifest--3.6.5... (13.7KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/mbedtls@3--3.6.5... (3.6MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/nmap_bottle_manifest--7.98-2... (22.2KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/nmap--7.98... (8.0MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/openexr_bottle_manifest--3.4.4_1... (15.6KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/openexr--3.4.4_1... (1MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/openjph_bottle_manifest--0.26.0... (12.2KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/openjph--0.26.0... (157.5KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/opus_bottle_manifest--1.6... (7.2KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/opus--1.6... (505KB)
+Removing: /opt/homebrew/Cellar/pcre2/10.46... (242 files, 7.1MB)
+Removing: /opt/homebrew/Cellar/pcre2/10.47... (244 files, 7.3MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/pcre2_bottle_manifest--10.47... (10.4KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/pcre2--10.47... (2.4MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/scrcpy_bottle_manifest--3.3.4... (99KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/scrcpy--3.3.4... (202.3KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/tesseract_bottle_manifest--5.5.2... (42.4KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/tesseract--5.5.2... (13.2MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/unbound_bottle_manifest--1.24.2... (14KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/unbound--1.24.2... (3MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/wakeonlan_bottle_manifest--0.42-2... (2KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/wakeonlan--0.42... (7.9KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/xorgproto_bottle_manifest--2025.1... (13.1KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/xorgproto--2025.1... (720KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/xz_bottle_manifest--5.8.2... (11.8KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/xz--5.8.2... (764.3KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/portable-ruby-4.0.2_1.arm64_big_sur.bottle.tar.gz... (12.7MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/portable-ruby-4.0.3.arm64_big_sur.bottle.tar.gz... (12.7MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/navidrome_bottle_manifest--0.59.0... (99.7KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/utf8cpp--4.0.9... (25.9KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/utf8cpp_bottle_manifest--4.0.9... (2.0KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/taglib_bottle_manifest--2.1.1... (12KB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/portable-ruby-4.0.5.arm64_big_sur.bottle.tar.gz... (12.7MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/Cask/SnowfallApp.zip--1.0.0.zip... (1.4MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/bootsnap/c29b3fff91d5026f5f82a69332d3d90a447e8be4921c2e4ed7d63c04dc8a78b6... (650 files, 6MB)
+Removing: /Users/leshymacbook/Library/Caches/Homebrew/bootsnap/40ce95b4e3227861473c22050240346bae44b1dfdc10f866cc8b09654b1d79cf... (652 files, 5.9MB)
+Removing: /Users/leshymacbook/Library/Logs/Homebrew/xray... (64B)
+[32m==>[0m [1mCaveats[0m
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+[34m==>[0m [1mgit[0m
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hggtg git --list[?1l>[?2004l
+]2;git --list]1;gitunknown option: --list
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;31m➜  [36m~[00m [K[?1h=[?2004hggit config --list[?1l>[?2004l
+]2;git config --list]1;git[?1049h[24;1H[?1h=credential.helper=osxkeychain[m
+user.name=Leshkanov[m
+user.email=sergunkinpasha@gmail.com[m
+core.excludesfile=/Users/leshymacbook/.gitignore_global[m
+init.defaultbranch=main[m
+[7m(END)[27m[K[K[?1l>[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hggit config --global user.name "l Leshkn anov"[?1l>[?2004l
+]2;git config --global user.name "Leshkanov"]1;git[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hggit config --global user.email ' "sergunkinpasha@gmail.com@ ' "[?1l>[?2004l
+]2;git config --global user.email "sergunkinpasha@gmail.com"]1;git[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hggit config --global user    init.defaultBranch main[?1l>[?2004l
+]2;git config --global init.defaultBranch main]1;git[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004hggit config --list[?1l>[?2004l
+]2;git config --list]1;git[?1049h[24;1H[?1h=credential.helper=osxkeychain[m
+user.name=Leshkanov[m
+user.email=sergunkinpasha@gmail.com[m
+core.excludesfile=/Users/leshymacbook/.gitignore_global[m
+init.defaultbranch=main[m
+[7m(END)[27m[K[K[?1l>[?1049l[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air.local/Users/leshymacbook]2;leshymacbook@MacBook-Air]1;~]7;file://MacBook-Air.local/Users/leshymacbook\[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+Deleting expired sessions...       2 completed.
+
+Script done on Sat May 23 19:37:53 2026
