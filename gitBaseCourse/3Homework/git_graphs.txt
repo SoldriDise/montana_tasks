@@ -1,0 +1,13 @@
+➜  calculator git:(feature/advanced) git log --oneline --graph --all
+* 1fe84c1 (HEAD -> feature/advanced) Fix power function
+* 675b816 Add power and modulo
+* 5e4babd (main) Add multiply function
+* b88a1c7 Initial commit
+
+➜   calculator git:(main) git log --oneline --graph --all
+* 6691118 (HEAD -> main) Add README
+| * 1fe84c1 (feature/advanced) Fix power function
+| * 675b816 Add power and modulo
+|/  
+* 5e4babd Add multiply function
+* b88a1c7 Initial commit
